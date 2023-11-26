@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
-import * as AppAuth from "expo-app-auth";
+import * as AppAuth from "expo-auth-session";
 import { AsyncStorage } from "@react-native-async-storage/async-storage";
 import { useNavigation } from "@react-navigation/native";
 
